@@ -1,0 +1,106 @@
+{
+    "info": {
+        "name": "Pollution API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Create Pollution",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/pollution",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "pollution"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"type\": \"pollution\",\n  \"location\": \"Phoenix, AZ\",\n  \"pollutionLevel\": \"Moderate\",\n  \"geoCoords2\": {\n    \"type\": \"Point\",\n    \"coordinates\": [-112.074, 33.4484]\n  },\n  \"dateTime\": \"2025-03-05T08:00:00Z\"\n}"
+                }
+            }
+        },
+        {
+            "name": "Get All Pollution",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/pollution",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "pollution"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Nearby Pollution Search",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/nearby-pollution",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "nearby-pollution"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"coordinates\": [-112.074, 33.4484],\n  \"radius\": 1000\n}"
+                }
+            }
+        },
+        {
+            "name": "Time-Based Pollution Search",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/reports-by-date-pollution",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "reports-by-date-pollution"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"dateFrom\": \"2025-03-01T00:00:00Z\",\n  \"dateTo\": \"2025-03-31T23:59:59Z\"\n}"
+                }
+            }
+        }
+    ]
+}

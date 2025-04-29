@@ -1,0 +1,468 @@
+[{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c02"
+  },
+  "type": "flood",
+  "location": "Miami, FL",
+  "geoCoords": {
+    "lat": 25.7617,
+    "lng": -80.1918
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -80.1918,
+      25.7617
+    ]
+  },
+  "dateTime": "2025-02-02T14:30:00Z",
+  "floodLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c09"
+  },
+  "type": "flood",
+  "location": "Savannah, GA",
+  "geoCoords": {
+    "lat": 32.0809,
+    "lng": -81.0912
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -81.0912,
+      32.0809
+    ]
+  },
+  "dateTime": "2025-02-09T14:30:00Z",
+  "floodLevel": "Severe"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c13"
+  },
+  "type": "flood",
+  "location": "Portland, OR",
+  "geoCoords": {
+    "lat": 45.5051,
+    "lng": -122.675
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -122.675,
+      45.5051
+    ]
+  },
+  "dateTime": "2025-02-13T14:30:00Z",
+  "floodLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c14"
+  },
+  "type": "flood",
+  "location": "Washington, DC",
+  "geoCoords": {
+    "lat": 38.9072,
+    "lng": -77.0369
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -77.0369,
+      38.9072
+    ]
+  },
+  "dateTime": "2025-02-14T14:30:00Z",
+  "floodLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c06"
+  },
+  "type": "flood",
+  "location": "San Francisco, CA",
+  "geoCoords": {
+    "lat": 37.7749,
+    "lng": -122.4194
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -122.4194,
+      37.7749
+    ]
+  },
+  "dateTime": "2025-02-06T14:30:00Z",
+  "floodLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c11"
+  },
+  "type": "flood",
+  "location": "Baltimore, MD",
+  "geoCoords": {
+    "lat": 39.2904,
+    "lng": -76.6122
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -76.6122,
+      39.2904
+    ]
+  },
+  "dateTime": "2025-02-11T14:30:00Z",
+  "floodLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c12"
+  },
+  "type": "flood",
+  "location": "Seattle, WA",
+  "geoCoords": {
+    "lat": 47.6062,
+    "lng": -122.3321
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -122.3321,
+      47.6062
+    ]
+  },
+  "dateTime": "2025-02-12T14:30:00Z",
+  "floodLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c01"
+  },
+  "type": "flood",
+  "location": "West Long Branch, NJ",
+  "geoCoords": {
+    "lat": 40.2905,
+    "lng": -74.0167
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "dateTime": "2025-02-01T14:30:00Z",
+  "floodLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c03"
+  },
+  "type": "flood",
+  "location": "New Orleans, LA",
+  "geoCoords": {
+    "lat": 29.9511,
+    "lng": -90.0715
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -90.0715,
+      29.9511
+    ]
+  },
+  "dateTime": "2025-02-03T14:30:00Z",
+  "floodLevel": "Severe"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c08"
+  },
+  "type": "flood",
+  "location": "Boston, MA",
+  "geoCoords": {
+    "lat": 42.3601,
+    "lng": -71.0589
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -71.0589,
+      42.3601
+    ]
+  },
+  "dateTime": "2025-02-08T14:30:00Z",
+  "floodLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c15"
+  },
+  "type": "flood",
+  "location": "San Diego, CA",
+  "geoCoords": {
+    "lat": 32.7157,
+    "lng": -117.1611
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -117.1611,
+      32.7157
+    ]
+  },
+  "dateTime": "2025-02-15T14:30:00Z",
+  "floodLevel": "Severe"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c07"
+  },
+  "type": "flood",
+  "location": "Tampa, FL",
+  "geoCoords": {
+    "lat": 27.9506,
+    "lng": -82.4572
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -82.4572,
+      27.9506
+    ]
+  },
+  "dateTime": "2025-02-07T14:30:00Z",
+  "floodLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986c04"
+  },
+  "type": "flood",
+  "location": "Houston, TX",
+  "geoCoords": {
+    "lat": 29.7604,
+    "lng": -95.3698
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -95.3698,
+      29.7604
+    ]
+  },
+  "dateTime": "2025-02-04T14:30:00Z",
+  "floodLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67e5aea3e522f57cabb446f3"
+  },
+  "type": "flood",
+  "location": "Charleston, SC",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.2859,
+      36.8508
+    ]
+  },
+  "dateTime": "2025-02-05T14:30:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fd9931f1d25cbe6634a195"
+  },
+  "type": "flood",
+  "location": "West Long Branch, NJ",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "dateTime": "2025-02-01T14:30:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fd993df1d25cbe6634a197"
+  },
+  "type": "flood",
+  "location": "West Long Branch, NJ",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "dateTime": "2025-02-01T14:30:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68015b2c9cd26a25066620bb"
+  },
+  "type": "Floods",
+  "location": "West Long Branch",
+  "floodLevel": "Moderate",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68015b699cd26a25066620bd"
+  },
+  "type": "Floods",
+  "location": "West Long Branch",
+  "floodLevel": "Moderate",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "dateTime": "2025-04-17T14:30:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680a7666839c0c29fef64aa5"
+  },
+  "type": "flood",
+  "location": "Charleston, SC",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.9311,
+      32.7765
+    ]
+  },
+  "dateTime": "2025-03-22T10:00:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680a7666839c0c29fef64aa6"
+  },
+  "type": "flood",
+  "location": "Waterfront Park",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.925,
+      32.777
+    ]
+  },
+  "dateTime": "2025-03-23T14:00:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680a7666839c0c29fef64aaa"
+  },
+  "type": "pollution",
+  "location": "College of Charleston",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.939,
+      32.7812
+    ]
+  },
+  "dateTime": "2025-03-22T09:30:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680a7666839c0c29fef64aab"
+  },
+  "type": "pollution",
+  "location": "King Street",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.928,
+      32.776
+    ]
+  },
+  "dateTime": "2025-03-23T16:45:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680a79fc1a61dae2b5ea58aa"
+  },
+  "type": "flood",
+  "location": "Test - Today",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.95,
+      32.78
+    ]
+  },
+  "dateTime": "2025-04-24T10:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "680c7912403cc4ac9db38730"
+  },
+  "type": "flood",
+  "location": "Charleston",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.9311,
+      32.7765
+    ]
+  },
+  "dateTime": "2025-04-24T10:00:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f0924a094550e13e103ba"
+  },
+  "type": "air pollution",
+  "location": "Downtown City Center",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -79.9311,
+      32.7765
+    ]
+  },
+  "dateTime": "2025-04-24T10:00:00Z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681051961e89029e17b0dc89"
+  },
+  "type": "flood",
+  "location": "West Long Branch, NJ",
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.0167,
+      40.2905
+    ]
+  },
+  "dateTime": "2025-02-01T10:30:00Z",
+  "__v": 0
+}]

@@ -1,0 +1,141 @@
+{
+    "info": {
+        "name": "Flood API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Create Flood",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/floods",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "floods"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"type\": \"flood\",\n  \"location\": \"Miami, FL\",\n  \"floodLevel\": \"Severe\",\n  \"geoCoords2\": {\n    \"type\": \"Point\",\n    \"coordinates\": [-80.1918, 25.7617]\n  },\n  \"dateTime\": \"2025-04-15T14:30:00Z\"\n}"
+                }
+            }
+        },
+        {
+            "name": "Get All Floods",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/floods",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "floods"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Nearby Flood Search",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/nearby",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "nearby"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"coordinates\": [-80.1918, 25.7617],\n  \"radius\": 1000\n}"
+                }
+            }
+        },
+        {
+            "name": "Time-Based Flood Search",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/api/reports-by-date",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "reports-by-date"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"dateFrom\": \"2025-04-01T00:00:00Z\",\n  \"dateTo\": \"2025-04-30T23:59:59Z\"\n}"
+                }
+            }
+        },
+        {
+            "name": "Flood Count by Level",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/floods/count-by-level",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "floods",
+                        "count-by-level"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Flood Dashboard Summary",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/dashboard-summary",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "api",
+                        "dashboard-summary"
+                    ]
+                }
+            }
+        }
+    ]
+}

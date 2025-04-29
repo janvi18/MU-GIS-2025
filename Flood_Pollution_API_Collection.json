@@ -1,0 +1,215 @@
+{
+  "info": {
+    "name": "Flood and Pollution GIS API Collection",
+    "schema": " https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Flood APIs",
+      "item": [
+        {
+          "name": "Create Flood",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/floods"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"flood\",\n  \"location\": \"Miami, FL\",\n  \"floodLevel\": \"Severe\",\n  \"geoCoords2\": {\n    \"type\": \"Point\",\n    \"coordinates\": [-80.1918, 25.7617]\n  },\n  \"dateTime\": \"2025-04-15T14:30:00Z\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Get All Floods",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3000/api/floods"
+            }
+          }
+        },
+        {
+          "name": "Radius Search Flood",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/nearby"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"coordinates\": [-80.1918, 25.7617],\n  \"radius\": 1000\n}"
+            }
+          }
+        },
+        {
+          "name": "Polygon Search Flood",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/polygon-search"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"coordinates\": [\n    [-80.1925, 25.7605],\n    [-80.1925, 25.7625],\n    [-80.1910, 25.7625],\n    [-80.1910, 25.7605],\n    [-80.1925, 25.7605]\n  ]\n}"
+            }
+          }
+        },
+        {
+          "name": "Time-based Filter Flood",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/reports-by-date"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dateFrom\": \"2025-04-01T00:00:00Z\",\n  \"dateTo\": \"2025-04-30T23:59:59Z\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Flood Count by Level",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3000/api/floods/count-by-level"
+            }
+          }
+        },
+        {
+          "name": "Flood Dashboard Summary",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3000/api/dashboard-summary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pollution APIs",
+      "item": [
+        {
+          "name": "Create Pollution",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/pollution"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"type\": \"pollution\",\n  \"location\": \"Phoenix, AZ\",\n  \"pollutionLevel\": \"Moderate\",\n  \"geoCoords2\": {\n    \"type\": \"Point\",\n    \"coordinates\": [-112.074, 33.4484]\n  },\n  \"dateTime\": \"2025-03-05T08:00:00Z\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Get All Pollution",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3000/api/pollution"
+            }
+          }
+        },
+        {
+          "name": "Radius Search Pollution",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/nearby-pollution"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"coordinates\": [-112.074, 33.4484],\n  \"radius\": 1000\n}"
+            }
+          }
+        },
+        {
+          "name": "Polygon Search Pollution",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/polygon-search-pollution"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"coordinates\": [\n    [-112.0750, 33.4480],\n    [-112.0750, 33.4490],\n    [-112.0740, 33.4490],\n    [-112.0740, 33.4480],\n    [-112.0750, 33.4480]\n  ]\n}"
+            }
+          }
+        },
+        {
+          "name": "Time-based Filter Pollution",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/reports-by-date-pollution"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dateFrom\": \"2025-03-01T00:00:00Z\",\n  \"dateTo\": \"2025-03-31T23:59:59Z\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Pollution Dashboard Summary",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3000/api/dashboard-summary"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

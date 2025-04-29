@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b05"
+  },
+  "type": "pollution",
+  "location": "Phoenix, AZ",
+  "geoCoords": {
+    "lat": 33.4484,
+    "lng": -112.074
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -112.074,
+      33.4484
+    ]
+  },
+  "dateTime": "2025-03-05T08:00:00Z",
+  "pollutionLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b09"
+  },
+  "type": "pollution",
+  "location": "Dallas, TX",
+  "geoCoords": {
+    "lat": 32.7767,
+    "lng": -96.797
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -96.797,
+      32.7767
+    ]
+  },
+  "dateTime": "2025-03-09T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b04"
+  },
+  "type": "pollution",
+  "location": "Houston, TX",
+  "geoCoords": {
+    "lat": 29.7604,
+    "lng": -95.3698
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -95.3698,
+      29.7604
+    ]
+  },
+  "dateTime": "2025-03-04T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b06"
+  },
+  "type": "pollution",
+  "location": "Philadelphia, PA",
+  "geoCoords": {
+    "lat": 39.9526,
+    "lng": -75.1652
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -75.1652,
+      39.9526
+    ]
+  },
+  "dateTime": "2025-03-06T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b15"
+  },
+  "type": "pollution",
+  "location": "Indianapolis, IN",
+  "geoCoords": {
+    "lat": 39.7684,
+    "lng": -86.1581
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -86.1581,
+      39.7684
+    ]
+  },
+  "dateTime": "2025-03-15T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b08"
+  },
+  "type": "pollution",
+  "location": "San Diego, CA",
+  "geoCoords": {
+    "lat": 32.7157,
+    "lng": -117.1611
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -117.1611,
+      32.7157
+    ]
+  },
+  "dateTime": "2025-03-08T08:00:00Z",
+  "pollutionLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b10"
+  },
+  "type": "pollution",
+  "location": "San Jose, CA",
+  "geoCoords": {
+    "lat": 37.3382,
+    "lng": -121.8863
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -121.8863,
+      37.3382
+    ]
+  },
+  "dateTime": "2025-03-10T08:00:00Z",
+  "pollutionLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b12"
+  },
+  "type": "pollution",
+  "location": "Jacksonville, FL",
+  "geoCoords": {
+    "lat": 30.3322,
+    "lng": -81.6557
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -81.6557,
+      30.3322
+    ]
+  },
+  "dateTime": "2025-03-12T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b01"
+  },
+  "type": "pollution",
+  "location": "New York, NY",
+  "geoCoords": {
+    "lat": 40.7128,
+    "lng": -74.006
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -74.006,
+      40.7128
+    ]
+  },
+  "dateTime": "2025-03-01T08:00:00Z",
+  "pollutionLevel": "High"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b14"
+  },
+  "type": "pollution",
+  "location": "Columbus, OH",
+  "geoCoords": {
+    "lat": 39.9612,
+    "lng": -82.9988
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -82.9988,
+      39.9612
+    ]
+  },
+  "dateTime": "2025-03-14T08:00:00Z",
+  "pollutionLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b03"
+  },
+  "type": "pollution",
+  "location": "Chicago, IL",
+  "geoCoords": {
+    "lat": 41.8781,
+    "lng": -87.6298
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -87.6298,
+      41.8781
+    ]
+  },
+  "dateTime": "2025-03-03T08:00:00Z",
+  "pollutionLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b11"
+  },
+  "type": "pollution",
+  "location": "Austin, TX",
+  "geoCoords": {
+    "lat": 30.2672,
+    "lng": -97.7431
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -97.7431,
+      30.2672
+    ]
+  },
+  "dateTime": "2025-03-11T08:00:00Z",
+  "pollutionLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b07"
+  },
+  "type": "pollution",
+  "location": "San Antonio, TX",
+  "geoCoords": {
+    "lat": 29.4241,
+    "lng": -98.4936
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -98.4936,
+      29.4241
+    ]
+  },
+  "dateTime": "2025-03-07T08:00:00Z",
+  "pollutionLevel": "Low"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b02"
+  },
+  "type": "pollution",
+  "location": "Los Angeles, CA",
+  "geoCoords": {
+    "lat": 34.0522,
+    "lng": -118.2437
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -118.2437,
+      34.0522
+    ]
+  },
+  "dateTime": "2025-03-02T08:00:00Z",
+  "pollutionLevel": "Moderate"
+},
+{
+  "_id": {
+    "$oid": "67d315e814c36f7a36986b13"
+  },
+  "type": "pollution",
+  "location": "San Francisco, CA",
+  "geoCoords": {
+    "lat": 37.7749,
+    "lng": -122.4194
+  },
+  "geoCoords2": {
+    "type": "Point",
+    "coordinates": [
+      -122.4194,
+      37.7749
+    ]
+  },
+  "dateTime": "2025-03-13T08:00:00Z",
+  "pollutionLevel": "Moderate"
+}]
